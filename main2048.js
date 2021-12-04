@@ -45,6 +45,7 @@ function init() {
             var gridCell = $("#grid-cell-" + i + "-" + j);
             gridCell.css('top', getPosTop(i, j));
             gridCell.css('left', getPosLeft(i, j));
+            gridCell.css('border-radius', 6);
         }
     }
 
